@@ -47,4 +47,20 @@ print('15' > '6') # False
 print(True and False) # 逻辑与 False
 print(True or False) # 逻辑或 True
 print(not True) # 逻辑非 False
+
+# 位运算符
+print(17 & 3) # 与
+print(17 | 3) # 或
+
+
+# 成员运算符
+print(1 in [1, 2, 3]) # 成员运算符 True
+print(1 not in [1, 2, 3]) # 成员运算符 False
+
+# 身份运算符
+print(id(1))
+print(id([1, 2, 3]))
+print([1, 2, 3] is [1, 2, 3])
+print([1, 2, 3] is not [1, 2, 3])
 """
+
