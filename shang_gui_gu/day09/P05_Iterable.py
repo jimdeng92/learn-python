@@ -1,5 +1,4 @@
-from collections.abc import Iterable
-from collections.abc import Iterator
+from collections.abc import Iterable, Iterator
 
 list1 = [1, 2, 3]
 tuple1 = (1, 2, 3)
