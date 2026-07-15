@@ -17,3 +17,10 @@ def decorator(f):
 
 # 使用装饰器
 print(decorator(func)(-4))
+
+# 装饰器语法糖
+@decorator
+def func2(x):
+    return sqrt(x)
+
+print(func2(-4))
